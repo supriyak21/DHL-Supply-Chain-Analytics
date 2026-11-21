@@ -1,30 +1,43 @@
-# DHL-Supply-Chain-Analytics
-A comprehensive end-to-end supply chain analytics solution developed for DHL, leveraging advanced Tableau functionalities to monitor and optimize operational metrics across multiple carriers and suppliers.
+# 🚚 DHL Supply Chain Analytics Dashboard
 
-Project Overview:
-Engineered an interactive supply chain dashboard processing data from 100+ SKUs across 5 major suppliers, enabling real-time monitoring of $577K+ in revenue streams. The solution integrates automated KPI tracking, predictive analytics, and customizable visualizations for enhanced decision-making.
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![SKUs](https://img.shields.io/badge/SKUs-100-1f6feb?style=for-the-badge)
+![Revenue](https://img.shields.io/badge/Revenue-%24577K-2ea44f?style=for-the-badge)
 
-Key Features:
-Real-time monitoring dashboard with dynamic user controls
-Multi-dimensional KPI tracking system
-Predictive analytics engine for defect rate optimization
-Cross-database integration with parameter-driven filters
-Automated ETL pipeline with hierarchical data modeling
-Interactive visualization suite with customizable chart types
+An interactive Tableau dashboard tracking **orders, revenue, availability, defect rate, and shipping cost** across 100 SKUs, 5 suppliers, and 3 carriers.
 
-Technical Achievements:
-Reduced data processing time by 40% through optimized ETL workflows
-Maintained 48% product availability across 4,900+ orders
-Achieved $555K cost efficiency through automated KPI tracking
-Decreased defect rates to 2.3% using predictive modeling
-Implemented real-time monitoring across 3 carriers
+### 🔗 [View the Live Dashboard](https://public.tableau.com/app/profile/supriya.kumari.kushwaha/viz/DHL_supplychain_viz/Homepage)
 
-Technologies Used:
-Tableau
-SQL
-ETL Pipeline
-LOD Expressions
-Cross-database Joins
-Parameter-driven Controls
+![Dashboard Preview](dashboard.png)
+
+---
+
+## 🔍 Key Insights
+
+| | Insight |
+|---|---|
+| 🧴 | **Skincare** leads revenue at **$241.6K**, about 42% of the $577.6K total |
+| 🚛 | **Carrier B** moves the most units (**45%**) but has the **lowest availability** (43% vs. 51 to 52%) |
+| 💸 | **Carrier C** accounts for **37% of shipping cost** while moving only **22% of units** |
+| 📦 | **Carrier A** has the highest average availability at **52%** |
+
+## 🧭 Dashboard Features
+
+- **KPI tiles** for orders, revenue, availability, defect rate, and shipping cost
+- **Product type and SKU analysis** with a revenue treemap
+- **Carrier comparison** across revenue, units sold, stock level, and availability
+- **Parameter control** to switch the carrier share chart between measures
+- **Filters** for year, carrier, location, mode, product type, route, and supplier
+
+## 🛠️ Tools
+
+Tableau (LOD expressions, parameters, calculated fields) · SQL
+
+## 🚀 Next Steps
+
+- Compare **shipping cost per unit** by carrier to confirm whether Carrier C is overpriced
+- Investigate the **availability gap** for Carrier B's high volume products
+
+---
 
 This project demonstrates expertise in data visualization, ETL processes, and supply chain analytics while delivering significant business impact through technical innovation
